@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+.text-highlight {
+  font-weight: bold;
+  color: #00baa7;
+}

@@ -1,7 +1,6 @@
-import React from "react";
-import HeroSection from "./components/HeroSection";
-import PhotoGallery from "./components/PhotoGallery";
-import ProfileOverview from "./components/ProfileOverview";
+import HeroSection from "./components/HeroSection/index.tsx";
+import PhotoGallery from "./components/PhotoGallery/index.tsx";
+import ProfileOverview from "./components/ProfileOverview/index.tsx";
 
 export default function HomePage() {
   return (

@@ -7,8 +7,6 @@ import NavbarAvatar from "./components/NavbarAvartar/index.tsx";
 export default function Header() {
   const location = useLocation();
 
-  console.log("location.pathname : ", location.pathname);
-
   return (
     <>
       <header className="pointer-events-none relative z-50 flex flex-none flex-col">

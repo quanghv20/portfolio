@@ -1,7 +1,6 @@
-import React from "react";
-import SubscribeForm from "./Form";
-import WorkExperience from "./WorkExperience";
-import ArticlesList from "./ArticlesList";
+import SubscribeForm from "./Form.tsx";
+import WorkExperience from "./WorkExperience.tsx";
+import { ArticleList } from "@/components/index.ts";
 
 export default function ProfileOverview() {
   return (
@@ -11,7 +10,9 @@ export default function ProfileOverview() {
           <div className="relative px-4 sm:px-8 lg:px-12">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
               <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-                <ArticlesList />
+                <div className="flex flex-col gap-16">
+                  <ArticleList />
+                </div>
                 <div className="space-y-10 lg:pl-16 xl:pl-24">
                   <SubscribeForm />
                   <WorkExperience />

@@ -1,3 +1,4 @@
+import { HeroHeading } from "@/components/index.ts";
 import { personalInfo } from "@/constants/index.tsx";
 
 export default function AboutPage() {
@@ -25,9 +26,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="lg:order-first lg:row-span-2">
-                  <h1 className="leading-snug text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                    {personalInfo?.about?.introTitle}
-                  </h1>
+                  <HeroHeading text={personalInfo?.about?.introTitle} />
                   <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                     {personalInfo?.about?.introDesc?.map(
                       (item, index: number) => {
