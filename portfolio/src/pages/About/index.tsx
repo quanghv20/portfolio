@@ -9,7 +9,7 @@ export default function AboutPage() {
           <div className="relative px-4 sm:px-8 lg:px-12">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
               <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-                <div className="lg:pl-20">
+                <div className="lg:pl-20 m-auto">
                   <div className="max-w-xs px-2.5 lg:max-w-none">
                     <img
                       alt=""
@@ -35,7 +35,7 @@ export default function AboutPage() {
                     )}
                   </div>
                 </div>
-                <div className="lg:pl-20">
+                <div className="lg:pl-20 m-auto">
                   <ul role="list">
                     {personalInfo?.socialLinks?.map((item, index: number) => {
                       return (
