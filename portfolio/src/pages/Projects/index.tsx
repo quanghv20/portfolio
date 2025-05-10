@@ -2,45 +2,40 @@ import { HeroHeading } from "@/components/index.ts";
 
 const projects = [
   {
-    name: "Planetaria",
-    description:
-      "Creating technology to empower civilians to explore space on their own terms.",
+    name: "Comming Soon",
+    description: "Something exciting is on the way. Stay tuned!",
     link: "#",
     image:
       "https://upload.wikimedia.org/wikipedia/vi/thumb/9/91/FC_Barcelona_logo.svg/1200px-FC_Barcelona_logo.svg.png",
-    site: "planetaria.tech",
+    site: "github.com",
   },
   {
-    name: "Animaginary",
-    description:
-      "High performance web animation library, hand-written in optimized WASM.",
+    name: "Coming Soons",
+    description: "Something exciting is on the way. Stay tuned!",
     link: "#",
     image:
       "https://upload.wikimedia.org/wikipedia/vi/thumb/a/a1/Man_Utd_FC_.svg/2021px-Man_Utd_FC_.svg.png",
     site: "github.com",
   },
   {
-    name: "HelioStream",
-    description:
-      "Real-time video streaming library, optimized for interstellar transmission.",
+    name: "Coming Soon",
+    description: "Something exciting is on the way. Stay tuned!",
     link: "#",
     image:
       "https://upload.wikimedia.org/wikipedia/vi/thumb/1/1d/Manchester_City_FC_logo.svg/1200px-Manchester_City_FC_logo.svg.png",
     site: "github.com",
   },
   {
-    name: "CosmosKit",
-    description:
-      "Open-source SDK for building web3 applications on the Cosmos network.",
+    name: "Coming Soon",
+    description: "Something exciting is on the way. Stay tuned!",
     link: "#",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/640px-FC_Internazionale_Milano_2021.svg.png",
     site: "github.com",
   },
   {
-    name: "Wavify",
-    description:
-      "Next-gen audio processing library for real-time waveform manipulation.",
+    name: "Coming Soon",
+    description: "Something exciting is on the way. Stay tuned!",
     link: "#",
     image:
       "https://upload.wikimedia.org/wikipedia/vi/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1024px-Paris_Saint-Germain_F.C..svg.png",
@@ -61,12 +56,10 @@ export default function ProjectsPage() {
                     "Designing the future, one idea at a time. Nothing is impossible."
                   }
                 />
-                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  I’ve worked on tons of little projects over the years but
-                  these are the ones that I’m most proud of. Many of them are
-                  open-source, so if you see something that piques your
-                  interest, check out the code and contribute if you have ideas
-                  for how it can be improved.
+                <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
+                  Over the years, I have worked on many personal projects.
+                  Although they are not large, each project has helped me
+                  improve and develop my skills.
                 </p>
               </header>
               <div className="mt-16 sm:mt-20">

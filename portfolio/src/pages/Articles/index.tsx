@@ -1,4 +1,5 @@
 import { ArticleList, CodeBlock, HeroHeading } from "@/components/index.ts";
+import FilterTags from "./components/FilterTags.tsx";
 
 export default function ArticlesPage() {
   return (
@@ -8,16 +9,18 @@ export default function ArticlesPage() {
           <div className="relative px-4 sm:px-8 lg:px-12">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
               <header className="max-w-4xl">
-                <HeroHeading
-                  text={
-                    "Writing on software design, company building, and the aerospace industry"
-                  }
-                />
-                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  All of my long-form thoughts on programming, leadership,
-                  product design, and more, collected in chronological order.
+                <HeroHeading text={"Code Your Future: Insights and Lessons"} />
+                <p className="mt-6 font-bold text-base text-zinc-600 dark:text-zinc-400">
+                  <i>
+                    {" "}
+                    Each line of code is a step closer to the future you're
+                    building.
+                  </i>
                 </p>
               </header>
+
+              <FilterTags />
+
               <div>
                 <div className="mt-8 mb-6">
                   <h2 className="text-highlight mt-6 sm:text-2xl">PrismJS</h2>

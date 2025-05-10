@@ -1,6 +1,4 @@
 import { personalInfo } from "@/constants/index.tsx";
-import React from "react";
-
 export default function WorkExperience() {
   return (
     <>

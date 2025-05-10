@@ -5,8 +5,6 @@ export const personalInfo = {
   email: "quanghv20@gmail.com",
   phone: "0986.915.765",
   website: "https://quanghv20.netlyfi.app",
-  // avatarUrl:
-  //   "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/486634250_2047518615660068_4318665347653115543_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEew8B8XknnWvVyxzW_MTYpDkOKhflBRNkOQ4qF-UFE2a_KTt_SS5BwJd3T7TwD14LJzuiUhde85QkRp4aDyhYH&_nc_ohc=ZTODSTrNyFUQ7kNvwHyKUxw&_nc_oc=Adk21uqEMtHIBdf1DJpi6GHE5WbcpQGjbGSYLoXzbxAmFulrFDOHjaN1LOQAa9X54tHSTXznUve3sx-Rb3nsrZiL&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=gtTKv8HBZ0eaU1qyRZKfCg&oh=00_AfLN_dl1Nfrlwt-0XpDfecPGNEXhD4RoCnNbTiSlnVka3g&oe=68247C2C",
   avatarUrl:
     "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/70698615_711342159277727_2862410787262038016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEZYFeGYTlFTs9D_D965wl_wll8Ejlhfb7CWXwSOWF9vqXO9bTJZ_Q3L2PM6CYDDnaGLjLtblrmTDbYz38d8PWQ&_nc_ohc=0ZQiAjtpPEoQ7kNvwFJGDGm&_nc_oc=AdkbaL76ROs2yFOdVItGaR51O0cmqa2mAGN38HdF5tz_SLliqW4Hgi7rmU65otlzexaqTRsx7_pEVDLHVKTjmF8g&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=a-0z7iCbZx9YrN_tuTtByQ&oh=00_AfJcqdV4S0by8oQNJ0pfOuJzK_QVbYRp4OGh8PPt2t0xSA&oe=68466128",
   photoGallery: [
@@ -234,8 +232,6 @@ export const personalInfo = {
       // "Kỹ năng debug cao với Chrome DevTools, React DevTools, Redux DevTools, kết hợp testing bằng Jest + React Testing Library để đảm bảo chất lượng code.",
       // "Có kinh nghiệm mentoring, review code cho junior, thiết lập quy chuẩn codebase và CI/CD pipelines frontend.",
     ],
-    // imgUrl:
-    //   "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/70698615_711342159277727_2862410787262038016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEZYFeGYTlFTs9D_D965wl_wll8Ejlhfb7CWXwSOWF9vqXO9bTJZ_Q3L2PM6CYDDnaGLjLtblrmTDbYz38d8PWQ&_nc_ohc=0ZQiAjtpPEoQ7kNvwFJGDGm&_nc_oc=AdkbaL76ROs2yFOdVItGaR51O0cmqa2mAGN38HdF5tz_SLliqW4Hgi7rmU65otlzexaqTRsx7_pEVDLHVKTjmF8g&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=a-0z7iCbZx9YrN_tuTtByQ&oh=00_AfJcqdV4S0by8oQNJ0pfOuJzK_QVbYRp4OGh8PPt2t0xSA&oe=68466128",
     imgUrl:
       "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/62269024_648779955533948_5721539270322159616_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG-2D1KEraxnLhzhzXLzAc-n5may6fbhpyfmZrLp9uGnDDJuYZp_hx43kSxIzssrIR1nPA_LX1bU9v3ltphVP_G&_nc_ohc=RppvJktacMMQ7kNvwHlGFzi&_nc_oc=Adk4A_95VxyiBhPNWT8bX0sxjEKMCmQpcFQSWvuRhUBK0cXjeVrFVxJZYxi6Y85YxsVIJzoUDGf0-4qqDh7343XV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=ksQKyZsjecEadlNk0mtqAQ&oh=00_AfJ6REH5W3rQ8V8L1Pe8lj76h2J50O-2qdPQIDh0O_MZ1A&oe=6846515D",
   },
@@ -248,4 +244,13 @@ export const navItems = [
   { label: "Projects", href: "/projects" },
   // { label: "Speaking", href: "/speaking" },
   // { label: "Uses", href: "/uses" },
+];
+
+export const tags = [
+  { label: "Latest", color: "green" },
+  { label: "Most Popular", color: "red" },
+  { label: "HTML/CSS", color: "indigo" },
+  { label: "Javascript", color: "yellow" },
+  { label: "ReactJS", color: "blue" },
+  { label: "NodeJS", color: "pink" },
 ];

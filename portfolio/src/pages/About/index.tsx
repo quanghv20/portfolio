@@ -27,7 +27,7 @@ export default function AboutPage() {
                 </div>
                 <div className="lg:order-first lg:row-span-2">
                   <HeroHeading text={personalInfo?.about?.introTitle} />
-                  <div className="mt-4">
+                  <div className="mt-4 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                     <i>
                       <b>Designing the future, one idea at a time.</b>
                     </i>
@@ -45,7 +45,7 @@ export default function AboutPage() {
                       }
                     )}
                   </div>
-                  <div className="mt-6">
+                  <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400s">
                     <p className="mb-6">
                       Let’s puild something amazing together.
                     </p>
