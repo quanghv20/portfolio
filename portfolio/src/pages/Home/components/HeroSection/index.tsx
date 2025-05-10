@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className="mx-auto w-full max-w-7xl lg:px-8">
           <div className="relative px-4 sm:px-8 lg:px-12">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
-              <div className="max-w-3xl">
+              <div className="max-w-3xl" style={{ maxWidth: 800 }}>
                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                   {personalInfo?.titles?.mainTitle}
                 </h1>
