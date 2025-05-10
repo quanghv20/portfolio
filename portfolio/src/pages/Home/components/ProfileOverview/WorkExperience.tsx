@@ -7,7 +7,7 @@ export default function WorkExperience() {
       <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
         {personalInfo?.workExperiences?.map((item, index: number) => {
           return (
-            <div className={`${index === 0 ? "mb-8" : ""}`}>
+            <div key={index} className={`${index === 0 ? "mb-8" : ""}`}>
               <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                 {item?.icon}
                 <span className="ml-3">{item?.name}</span>
