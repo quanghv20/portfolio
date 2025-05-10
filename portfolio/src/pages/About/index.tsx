@@ -65,6 +65,7 @@ export default function AboutPage() {
                           <a
                             className="group flex items-center text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
                             href={item?.link}
+                            target="_blank"
                           >
                             {item?.icon}
                             <span className="ml-4">Follow on {item?.name}</span>
