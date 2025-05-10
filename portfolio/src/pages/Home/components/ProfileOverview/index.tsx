@@ -5,7 +5,7 @@ import { ArticleList } from "@/components/index.ts";
 export default function ProfileOverview() {
   return (
     <>
-      <div className="sm:px-8 mt-24 md:mt-28">
+      <div className="sm:px-8 mt-24 md:mt-15">
         <div className="mx-auto w-full max-w-7xl lg:px-8">
           <div className="relative px-4 sm:px-8 lg:px-12">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
@@ -14,8 +14,8 @@ export default function ProfileOverview() {
                   <ArticleList />
                 </div>
                 <div className="space-y-10 lg:pl-16 xl:pl-24">
-                  <SubscribeForm />
                   <WorkExperience />
+                  <SubscribeForm />
                 </div>
               </div>
             </div>

@@ -5,3 +5,7 @@
   font-weight: bold;
   color: #00baa7;
 }
+
+button {
+  cursor: pointer;
+}

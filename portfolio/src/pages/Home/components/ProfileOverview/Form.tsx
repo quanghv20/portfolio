@@ -7,24 +7,22 @@ export default function SubscribeForm() {
         action="/thank-you"
         className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
       >
-        <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+        <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
           <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            className="w-6 h-6 text-gray-800 dark:text-white"
             aria-hidden="true"
-            className="h-6 w-6 flex-none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
           >
             <path
-              d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
-              className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
-            ></path>
-            <path
-              d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
-              className="stroke-zinc-400 dark:stroke-zinc-500"
-            ></path>
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
+            />
           </svg>
           <span className="ml-3">Stay up to date</span>
         </h2>

@@ -27,12 +27,31 @@ export default function AboutPage() {
                 </div>
                 <div className="lg:order-first lg:row-span-2">
                   <HeroHeading text={personalInfo?.about?.introTitle} />
+                  <div className="mt-4">
+                    <i>
+                      <b>Designing the future, one idea at a time.</b>
+                    </i>
+                    <p className="mt-2">
+                      <i>
+                        <b>Nothing is impossible</b>
+                      </i>{" "}
+                      when you’re driven by curiosity, creativity, and purpose.
+                    </p>
+                  </div>
                   <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                     {personalInfo?.about?.introDesc?.map(
                       (item, index: number) => {
                         return <p key={index}>{item}</p>;
                       }
                     )}
+                  </div>
+                  <div className="mt-6">
+                    <p className="mb-6">
+                      Let’s puild something amazing together.
+                    </p>
+                    <b>
+                      <i>Thanks for reading!</i>
+                    </b>
                   </div>
                 </div>
                 <div className="lg:pl-20 m-auto">
@@ -44,7 +63,7 @@ export default function AboutPage() {
                           className={`flex ${index !== 0 ? "mt-4" : ""}`}
                         >
                           <a
-                            className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                            className="group flex items-center text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
                             href={item?.link}
                           >
                             {item?.icon}
@@ -55,18 +74,25 @@ export default function AboutPage() {
                     })}
                     <li className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
                       <a
-                        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                        href="mailto:spencer@planetaria.tech"
+                        className="group flex items-center text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                        href="mailto:quanghv20@gmail.com"
+                        target="_blank"
                       >
                         <svg
-                          viewBox="0 0 24 24"
+                          className="w-6 h-6 text-gray-800 dark:text-white"
                           aria-hidden="true"
-                          className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="none"
+                          viewBox="0 0 24 24"
                         >
                           <path
-                            fillRule="evenodd"
-                            d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"
-                          ></path>
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-width="2"
+                            d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
+                          />
                         </svg>
                         <span className="ml-4">quanghv20@gmail.com</span>
                       </a>

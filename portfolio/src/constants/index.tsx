@@ -5,8 +5,10 @@ export const personalInfo = {
   email: "quanghv20@gmail.com",
   phone: "0986.915.765",
   website: "https://quanghv20.netlyfi.app",
+  // avatarUrl:
+  //   "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/486634250_2047518615660068_4318665347653115543_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEew8B8XknnWvVyxzW_MTYpDkOKhflBRNkOQ4qF-UFE2a_KTt_SS5BwJd3T7TwD14LJzuiUhde85QkRp4aDyhYH&_nc_ohc=ZTODSTrNyFUQ7kNvwHyKUxw&_nc_oc=Adk21uqEMtHIBdf1DJpi6GHE5WbcpQGjbGSYLoXzbxAmFulrFDOHjaN1LOQAa9X54tHSTXznUve3sx-Rb3nsrZiL&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=gtTKv8HBZ0eaU1qyRZKfCg&oh=00_AfLN_dl1Nfrlwt-0XpDfecPGNEXhD4RoCnNbTiSlnVka3g&oe=68247C2C",
   avatarUrl:
-    "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/486634250_2047518615660068_4318665347653115543_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEew8B8XknnWvVyxzW_MTYpDkOKhflBRNkOQ4qF-UFE2a_KTt_SS5BwJd3T7TwD14LJzuiUhde85QkRp4aDyhYH&_nc_ohc=ZTODSTrNyFUQ7kNvwHyKUxw&_nc_oc=Adk21uqEMtHIBdf1DJpi6GHE5WbcpQGjbGSYLoXzbxAmFulrFDOHjaN1LOQAa9X54tHSTXznUve3sx-Rb3nsrZiL&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=gtTKv8HBZ0eaU1qyRZKfCg&oh=00_AfLN_dl1Nfrlwt-0XpDfecPGNEXhD4RoCnNbTiSlnVka3g&oe=68247C2C",
+    "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/70698615_711342159277727_2862410787262038016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEZYFeGYTlFTs9D_D965wl_wll8Ejlhfb7CWXwSOWF9vqXO9bTJZ_Q3L2PM6CYDDnaGLjLtblrmTDbYz38d8PWQ&_nc_ohc=0ZQiAjtpPEoQ7kNvwFJGDGm&_nc_oc=AdkbaL76ROs2yFOdVItGaR51O0cmqa2mAGN38HdF5tz_SLliqW4Hgi7rmU65otlzexaqTRsx7_pEVDLHVKTjmF8g&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=a-0z7iCbZx9YrN_tuTtByQ&oh=00_AfJcqdV4S0by8oQNJ0pfOuJzK_QVbYRp4OGh8PPt2t0xSA&oe=68466128",
   photoGallery: [
     "https://scontent.fhan15-1.fna.fbcdn.net/v/t1.6435-9/42488876_520904611654817_3379139217471832064_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFXfBGGDrh_C4xoPa7aGFlpCmshq4c8FbUKayGrhzwVtY-_B19DsdT3foNGsJOo6n4ff2dyskXZTNUr5Bc0YKft&_nc_ohc=gYk5Dxb9A4AQ7kNvwHpXpjt&_nc_oc=AdnLD1BjpDOIah5JqHS-6aQ7CSXuPZmnEk4G0q01m6LtYtWb1zWeFyEvHzGuf5iyHhMulwiVxTUVlq5lnlnsLz3F&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9BiUrWqkm1Hrudi_dGpmhA&oh=00_AfINNWD-F8Xv5T1T6ZyPTpZWEeh_2npHMjSmUa3TkZ4rVA&oe=6846502D",
     "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/62269024_648779955533948_5721539270322159616_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG-2D1KEraxnLhzhzXLzAc-n5may6fbhpyfmZrLp9uGnDDJuYZp_hx43kSxIzssrIR1nPA_LX1bU9v3ltphVP_G&_nc_ohc=RppvJktacMMQ7kNvwHlGFzi&_nc_oc=Adk4A_95VxyiBhPNWT8bX0sxjEKMCmQpcFQSWvuRhUBK0cXjeVrFVxJZYxi6Y85YxsVIJzoUDGf0-4qqDh7343XV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=ksQKyZsjecEadlNk0mtqAQ&oh=00_AfJ6REH5W3rQ8V8L1Pe8lj76h2J50O-2qdPQIDh0O_MZ1A&oe=6846515D",
@@ -18,8 +20,8 @@ export const personalInfo = {
     mainTitle: "Fullstack Developer",
     subTitle: "Specializing in ReactJS & NodeJS",
   },
-  shortDescription: `I'm "Quang Cối". I have 2+ years of experience building web applications, specializing in ReactJS (Frontend) and NodeJS (Backend).`,
-  longDescription: `I'm experienced in working on real-world projects, with strong teamwork, self-learning, problem-solving, and time management skills. I can work effectively under pressure.`,
+  shortDescription: `I'm "Quang Cối". I have 2+ years of experience building web applications, specializing in ReactJS and NodeJS. I'm experienced in working on real-world projects, with strong teamwork, self-learning, problem-solving, and time management skills. I can work effectively under pressure.`,
+  longDescription: ``,
 
   skills: [
     "ReactJS",
@@ -62,7 +64,7 @@ export const personalInfo = {
           logoCompany:
             "https://yt3.googleusercontent.com/f0WUG4YtZodKr5P4BzVkDxvyPGVx4gn9HpY18p6Wy17NIvug16nMJBXKGVKJqJerWZjxDrqN=s900-c-k-c0x00ffffff-no-rj",
           role: "Software Engineering",
-          startDate: "2018",
+          startDate: "2019",
           endDate: "2023",
           description:
             "Developed and maintained web applications using ReactJS and NodeJS, worked closely with designers and backend team to build responsive and scalable systems.",
@@ -213,16 +215,29 @@ export const personalInfo = {
   ],
 
   about: {
-    introTitle:
-      "I’m Quang Cối. I live in Ha Noi City, where I design the future.",
+    introTitle: "I’m Quang Cối, based in Hanoi, Vietnam!",
     introDesc: [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci voluptates nostrum ipsum dolor reprehenderit, molestias laboriosam. Eaque optio, nihil facilis, minima vero dolorum eum omnis sapiente quasi sequi sint?",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci voluptates nostrum ipsum dolor reprehenderit, molestias laboriosam. Eaque optio, nihil facilis, minima vero dolorum eum omnis sapiente quasi sequi sint?",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci voluptates nostrum ipsum dolor reprehenderit, molestias laboriosam. Eaque optio, nihil facilis, minima vero dolorum eum omnis sapiente quasi sequi sint?",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima adipisci voluptates nostrum ipsum dolor reprehenderit, molestias laboriosam. Eaque optio, nihil facilis, minima vero dolorum eum omnis sapiente quasi sequi sint?",
+      "Over the years, I’ve worked on many projects — from small experiments to real-world applications. Each one has helped me grow as a developer and as a person. I love building things that are both useful and meaningful.",
+      "I specialize in crafting scalable, clean frontend architectures using ReactJS, Redux Toolkit, Ant Design, and TailwindCSS. I'm passionate about writing maintainable code, optimizing performance, and creating user interfaces that feel intuitive and delightful. I’ve also worked with middleware patterns, API integrations, and modern state management tools, and I believe the right structure can empower teams to move fast with confidence.",
+      "I’m always excited to connect with like-minded people and collaborate on new ideas — especially those that challenge the norm and bring real value.",
+      // "Thành thạo ReactJS với hơn X năm kinh nghiệm, có khả năng xây dựng các hệ thống frontend phức tạp với kiến trúc component tái sử dụng, tối ưu hiệu suất và quản lý state hiệu quả.",
+      // "Kỹ năng cao trong việc tổ chức cấu trúc dự án chuẩn scalable, tách biệt rõ logic, UI, service layers; đảm bảo maintainability và dễ dàng onboarding cho các thành viên mới.",
+      // "Hiểu rõ bản chất của Virtual DOM, Reconciliation, lifecycle hooks và các kỹ thuật tối ưu hiệu suất như memoization, code splitting, lazy loading.",
+      // "Sử dụng thuần thục Redux và Redux Toolkit để quản lý state toàn cục một cách sạch sẽ, hỗ trợ scalable architecture với pattern 'slice' và 'feature-based structure'.",
+      // "Kinh nghiệm xây dựng custom middleware trong Redux để handle side effects (logging, caching, socket, permission guard...).",
+      // "Đã từng triển khai các hệ thống sử dụng Redux Thunk và Redux Saga, hiểu rõ khi nào nên dùng middleware nào phù hợp với độ phức tạp của logic bất đồng bộ.",
+      // "Tinh thông Ant Design (Antd): thiết kế UI theo hệ thống Design System chuyên nghiệp, tận dụng component có sẵn và tùy biến để phù hợp với branding riêng.",
+      // "Kỹ năng phối hợp Antd + TailwindCSS để vừa đảm bảo tốc độ phát triển UI vừa dễ dàng tùy chỉnh chi tiết về style theo yêu cầu của team design.",
+      // "Kỹ năng cao trong việc tối ưu giao diện với TailwindCSS, viết class utility gọn gàng, tái sử dụng cấu trúc bằng các component/variant chuẩn, tạo theme riêng.",
+      // "Có kinh nghiệm tích hợp và làm việc với các REST API và GraphQL, tối ưu hiệu suất gọi API, debouncing, prefetch, caching local state…",
+      // "Hiểu sâu về các concept hiện đại như: Server-side rendering (SSR), Static Site Generation (SSG), và các patterns như Atomic Design, Feature-driven Development, Micro Frontends.",
+      // "Kỹ năng debug cao với Chrome DevTools, React DevTools, Redux DevTools, kết hợp testing bằng Jest + React Testing Library để đảm bảo chất lượng code.",
+      // "Có kinh nghiệm mentoring, review code cho junior, thiết lập quy chuẩn codebase và CI/CD pipelines frontend.",
     ],
+    // imgUrl:
+    //   "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/70698615_711342159277727_2862410787262038016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEZYFeGYTlFTs9D_D965wl_wll8Ejlhfb7CWXwSOWF9vqXO9bTJZ_Q3L2PM6CYDDnaGLjLtblrmTDbYz38d8PWQ&_nc_ohc=0ZQiAjtpPEoQ7kNvwFJGDGm&_nc_oc=AdkbaL76ROs2yFOdVItGaR51O0cmqa2mAGN38HdF5tz_SLliqW4Hgi7rmU65otlzexaqTRsx7_pEVDLHVKTjmF8g&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=a-0z7iCbZx9YrN_tuTtByQ&oh=00_AfJcqdV4S0by8oQNJ0pfOuJzK_QVbYRp4OGh8PPt2t0xSA&oe=68466128",
     imgUrl:
-      "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/70698615_711342159277727_2862410787262038016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEZYFeGYTlFTs9D_D965wl_wll8Ejlhfb7CWXwSOWF9vqXO9bTJZ_Q3L2PM6CYDDnaGLjLtblrmTDbYz38d8PWQ&_nc_ohc=0ZQiAjtpPEoQ7kNvwFJGDGm&_nc_oc=AdkbaL76ROs2yFOdVItGaR51O0cmqa2mAGN38HdF5tz_SLliqW4Hgi7rmU65otlzexaqTRsx7_pEVDLHVKTjmF8g&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=a-0z7iCbZx9YrN_tuTtByQ&oh=00_AfJcqdV4S0by8oQNJ0pfOuJzK_QVbYRp4OGh8PPt2t0xSA&oe=68466128",
+      "https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/62269024_648779955533948_5721539270322159616_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG-2D1KEraxnLhzhzXLzAc-n5may6fbhpyfmZrLp9uGnDDJuYZp_hx43kSxIzssrIR1nPA_LX1bU9v3ltphVP_G&_nc_ohc=RppvJktacMMQ7kNvwHlGFzi&_nc_oc=Adk4A_95VxyiBhPNWT8bX0sxjEKMCmQpcFQSWvuRhUBK0cXjeVrFVxJZYxi6Y85YxsVIJzoUDGf0-4qqDh7343XV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=ksQKyZsjecEadlNk0mtqAQ&oh=00_AfJ6REH5W3rQ8V8L1Pe8lj76h2J50O-2qdPQIDh0O_MZ1A&oe=6846515D",
   },
 };
 
@@ -231,6 +246,6 @@ export const navItems = [
   { label: "About", href: "/about" },
   { label: "Articles", href: "/articles" },
   { label: "Projects", href: "/projects" },
-  { label: "Speaking", href: "/speaking" },
-  { label: "Uses", href: "/uses" },
+  // { label: "Speaking", href: "/speaking" },
+  // { label: "Uses", href: "/uses" },
 ];

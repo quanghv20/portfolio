@@ -58,7 +58,7 @@ export default function ProjectsPage() {
               <header className="max-w-3xl">
                 <HeroHeading
                   text={
-                    "Things I’ve made trying to put my dent in the universe."
+                    "Designing the future, one idea at a time. Nothing is impossible."
                   }
                 />
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
