@@ -2,6 +2,7 @@ import MainLayout from "@/layouts/index.tsx";
 import {
   AboutPage,
   ArticlesPage,
+  ArticleDetailsPage,
   HomePage,
   ProjectsPage,
   SpeakingPage,
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "/about", element: <AboutPage /> },
       { path: "/articles", element: <ArticlesPage /> },
+      { path: "/article-details", element: <ArticleDetailsPage /> },
       { path: "/projects", element: <ProjectsPage /> },
       { path: "/speaking", element: <SpeakingPage /> },
       { path: "/uses", element: <UsesPage /> },
