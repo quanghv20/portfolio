@@ -1,12 +1,8 @@
-import { JSX } from "react";
+import { Outlet } from "react-router-dom";
 import Header from "./Header/index.tsx";
 import Footer from "./Footer/index.tsx";
 
-type PropsType = {
-  children: JSX.Element;
-};
-
-export default function MainLayout({ children }: PropsType) {
+export default function MainLayout() {
   return (
     <div>
       <div className="fixed inset-0 flex justify-center sm:px-8">
@@ -16,7 +12,9 @@ export default function MainLayout({ children }: PropsType) {
       </div>
       <div className="relative flex w-full flex-col">
         <Header />
-        <main className="flex-auto">{children}</main>
+        <main className="flex-auto">
+          <Outlet />
+        </main>
         <Footer />
       </div>
     </div>

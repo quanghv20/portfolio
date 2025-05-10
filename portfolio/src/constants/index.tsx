@@ -183,3 +183,11 @@ export const personalInfo = {
     },
   ],
 };
+
+export const navItems = [
+  { label: "About", href: "/about", active: true },
+  { label: "Articles", href: "/articles" },
+  { label: "Projects", href: "/projects" },
+  { label: "Speaking", href: "/speaking" },
+  { label: "Uses", href: "/uses" },
+];

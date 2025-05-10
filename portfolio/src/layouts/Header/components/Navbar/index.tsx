@@ -1,11 +1,8 @@
+import { Link, useLocation } from "react-router-dom";
+import { navItems } from "@/constants/index.tsx";
+
 export default function Navbar() {
-  const navItems = [
-    { label: "About", href: "/about", active: true },
-    { label: "Articles", href: "/articles" },
-    { label: "Projects", href: "/projects" },
-    { label: "Speaking", href: "/speaking" },
-    { label: "Uses", href: "/uses" },
-  ];
+  const location = useLocation();
 
   return (
     <div className="flex flex-1 justify-end md:justify-center">
@@ -39,18 +36,22 @@ export default function Navbar() {
       ></div>
       <nav className="pointer-events-auto hidden md:block">
         <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-          {navItems.map((item) => (
-            <li key={item.href}>
-              <a
-                href={item.href}
-                className={`relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
-                  item.active ? "text-teal-500 dark:text-teal-400" : ""
-                }`}
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
+          {navItems.map((item, index: number) => {
+            const isActive = location?.pathname === item?.href;
+
+            return (
+              <li key={index}>
+                <Link
+                  to={item?.href}
+                  className={`relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
+                    isActive ? "text-teal-500 dark:text-teal-400" : ""
+                  }`}
+                >
+                  {item?.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </div>
