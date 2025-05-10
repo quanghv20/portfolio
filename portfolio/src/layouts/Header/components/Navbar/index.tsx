@@ -1,18 +1,29 @@
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "@/constants/index.tsx";
+import NavMenu from "@/components/NavMenu/index.tsx";
 
 export default function Navbar() {
   const location = useLocation();
+
+  const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
+
+  const handleToggleMenu = () => setIsNavMenuOpen((prev) => !prev);
+
+  useEffect(() => {
+    setIsNavMenuOpen(false);
+  }, [location.pathname]);
 
   return (
     <div className="flex flex-1 justify-end md:justify-center">
       <div className="pointer-events-auto md:hidden" data-headlessui-state="">
         <button
-          className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+          className="cursor-pointer group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
           type="button"
           aria-expanded="false"
           data-headlessui-state=""
           id="headlessui-popover-button-:Rbmiqja:"
+          onClick={handleToggleMenu}
         >
           Menu
           <svg
@@ -29,6 +40,8 @@ export default function Navbar() {
             ></path>
           </svg>
         </button>
+
+        <NavMenu isOpen={isNavMenuOpen} onClose={handleToggleMenu} />
       </div>
       <div
       // hidden=""
