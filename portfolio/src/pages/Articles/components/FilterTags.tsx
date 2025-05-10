@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { tags } from "@/constants/index.tsx";
 import FilterMenu from "./FilterMenu.tsx";
 
 export default function FilterTags() {
