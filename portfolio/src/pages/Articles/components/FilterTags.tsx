@@ -80,7 +80,7 @@ export default function FilterTags() {
               activeTag === "Latest"
                 ? "border-2 border-green-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-green-100 text-green-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-green-900 dark:text-green-300 cursor-pointer mt-6`}
+            } bg-green-100 text-green-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-green-900 dark:text-green-50 cursor-pointer mt-6`}
           >
             Latest
           </span>
@@ -90,7 +90,7 @@ export default function FilterTags() {
               activeTag === "Most Popular"
                 ? "border-2 border-red-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-red-100 text-red-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-red-900 dark:text-red-300 cursor-pointer mt-6`}
+            } bg-red-100 text-red-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-red-900 dark:text-red-50 cursor-pointer mt-6`}
           >
             Most Popular
           </span>
@@ -100,7 +100,7 @@ export default function FilterTags() {
               activeTag === "HTML/CSS"
                 ? "border-2 border-indigo-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-indigo-100 text-indigo-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-indigo-900 dark:text-indigo-300 cursor-pointer mt-6`}
+            } bg-indigo-100 text-indigo-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-indigo-900 dark:text-indigo-50 cursor-pointer mt-6`}
           >
             HTML/CSS
           </span>
@@ -110,7 +110,7 @@ export default function FilterTags() {
               activeTag === "Javascript"
                 ? "border-2 border-yellow-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-yellow-100 text-yellow-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-300 cursor-pointer mt-6`}
+            } bg-yellow-100 text-yellow-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-yellow-900 dark:text-yellow-50 cursor-pointer mt-6`}
           >
             Javascript
           </span>
@@ -120,7 +120,7 @@ export default function FilterTags() {
               activeTag === "ReactJS"
                 ? "border-2 border-blue-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-blue-100 text-blue-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-blue-900 dark:text-blue-300 cursor-pointer mt-6`}
+            } bg-blue-100 text-blue-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-blue-900 dark:text-blue-50 cursor-pointer mt-6`}
           >
             ReactJS
           </span>
@@ -130,7 +130,7 @@ export default function FilterTags() {
               activeTag === "NodeJS"
                 ? "border-2 border-pink-500 tag-active"
                 : "border-2 border-transparent tag-custom"
-            } bg-pink-100 text-pink-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-pink-900 dark:text-pink-300 cursor-pointer mt-6`}
+            } bg-pink-100 text-pink-800 text-base font-medium me-4 px-4 py-2 rounded-lg dark:bg-pink-900 dark:text-pink-50 cursor-pointer mt-6`}
           >
             NodeJS
           </span>
