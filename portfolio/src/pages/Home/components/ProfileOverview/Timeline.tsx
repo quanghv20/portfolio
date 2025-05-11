@@ -115,7 +115,7 @@ export default function Timeline() {
               </ul>
 
               <button
-                className="text-blue-500 mt-2"
+                className="text-blue-500 mt-3 ml-2"
                 onClick={() => setShowFull(!showFull)}
               >
                 {showFull ? "See Less" : "See More. . ."}
