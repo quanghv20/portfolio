@@ -1,5 +1,6 @@
 export const personalInfo = {
-  name: "Quang Cối",
+  name: "Hà Văn Quang",
+  alias: "Quang Cối",
   dateOfBirth: "2000-06-29",
   location: "Hà Nội, Việt Nam",
   email: "quanghv20@gmail.com",
@@ -116,9 +117,9 @@ export const personalInfo = {
   ],
 
   education: {
-    school: "Trường Đại học XYZ",
+    school: "FPT University",
     degree: "Cử nhân Công nghệ Thông tin",
-    graduationYear: 2019,
+    graduationYear: 2023,
   },
 
   languages: ["Tiếng Việt (native)", "English (intermediate)"],
@@ -215,9 +216,25 @@ export const personalInfo = {
   about: {
     introTitle: "I’m Quang Cối, based in Hanoi, Vietnam!",
     introDesc: [
-      "Over the years, I’ve worked on many projects — from small experiments to real-world applications. Each one has helped me grow as a developer and as a person. I love building things that are both useful and meaningful.",
-      "I specialize in crafting scalable, clean frontend architectures using ReactJS, Redux Toolkit, Ant Design, and TailwindCSS. I'm passionate about writing maintainable code, optimizing performance, and creating user interfaces that feel intuitive and delightful. I’ve also worked with middleware patterns, API integrations, and modern state management tools, and I believe the right structure can empower teams to move fast with confidence.",
-      "I’m always excited to connect with like-minded people and collaborate on new ideas — especially those that challenge the norm and bring real value.",
+      `<i><b>Designing the future, one idea at a time!</b></i>`,
+      `<i><b>Nothing is impossible</b></i> when you’re driven by curiosity, 
+      creativity, and purpose.`,
+      `Over the years, I’ve worked on many projects — from small experiments 
+      to real-world applications. Each one has helped me grow as a developer 
+      and as a person. I love building things that are both useful and meaningful.`,
+      `I specialize in crafting scalable, clean frontend
+      architectures using <b>ReactJS</b>, <b>Redux Toolkit</b>,
+      <b>Ant Design</b>, and <b>TailwindCSS</b>. I'm passionate
+      about writing maintainable code,
+      <b>optimizing performance</b>, and creating user interfaces
+      that feel intuitive and delightful. I’ve also worked with
+      <b>middleware patterns</b>, <b>API integrations</b>, and
+      modern state management tools, and I believe the right
+      structure can empower teams to move fast with confidence.`,
+      `I’m always excited to connect with like-minded people and collaborate 
+      on new ideas — especially those that challenge the norm and bring real value.`,
+      `Let’s puild something amazing together.`,
+      `<b><i>Thanks for reading!</i></b>`,
       // "Thành thạo ReactJS với hơn X năm kinh nghiệm, có khả năng xây dựng các hệ thống frontend phức tạp với kiến trúc component tái sử dụng, tối ưu hiệu suất và quản lý state hiệu quả.",
       // "Kỹ năng cao trong việc tổ chức cấu trúc dự án chuẩn scalable, tách biệt rõ logic, UI, service layers; đảm bảo maintainability và dễ dàng onboarding cho các thành viên mới.",
       // "Hiểu rõ bản chất của Virtual DOM, Reconciliation, lifecycle hooks và các kỹ thuật tối ưu hiệu suất như memoization, code splitting, lazy loading.",

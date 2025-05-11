@@ -1,4 +1,4 @@
-import { HeroHeading } from "@/components/index.ts";
+import { HeroHeading, Paragraph, TextSubHeading } from "@/components/index.ts";
 import { personalInfo } from "@/constants/index.tsx";
 
 export default function AboutPage() {
@@ -21,38 +21,16 @@ export default function AboutPage() {
                       className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                       sizes="(min-width: 1024px) 32rem, 20rem"
                       src={personalInfo?.about?.imgUrl}
-                      // style="color: transparent;"
                     />
                   </div>
                 </div>
                 <div className="lg:order-first lg:row-span-2">
                   <HeroHeading text={personalInfo?.about?.introTitle} />
-                  <div className="mt-4 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                    <i>
-                      <b>Designing the future, one idea at a time.</b>
-                    </i>
-                    <p className="mt-2">
-                      <i>
-                        <b>Nothing is impossible</b>
-                      </i>{" "}
-                      when you’re driven by curiosity, creativity, and purpose.
-                    </p>
-                  </div>
-                  <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                    {personalInfo?.about?.introDesc?.map(
-                      (item, index: number) => {
-                        return <p key={index}>{item}</p>;
-                      }
-                    )}
-                  </div>
-                  <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400s">
-                    <p className="mb-6">
-                      Let’s puild something amazing together.
-                    </p>
-                    <b>
-                      <i>Thanks for reading!</i>
-                    </b>
-                  </div>
+                  {personalInfo?.about?.introDesc?.map(
+                    (item, index: number) => {
+                      return <Paragraph key={index} content={item} />;
+                    }
+                  )}
                 </div>
                 <div className="lg:pl-20 m-auto">
                   <ul role="list">
@@ -68,7 +46,9 @@ export default function AboutPage() {
                             target="_blank"
                           >
                             {item?.icon}
-                            <span className="ml-4">Follow on {item?.name}</span>
+                            <TextSubHeading className="ml-3">
+                              Follow on {item?.name}
+                            </TextSubHeading>
                           </a>
                         </li>
                       );
@@ -95,7 +75,9 @@ export default function AboutPage() {
                             d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
                           />
                         </svg>
-                        <span className="ml-4">quanghv20@gmail.com</span>
+                        <TextSubHeading className="ml-3">
+                          {personalInfo?.email}
+                        </TextSubHeading>
                       </a>
                     </li>
                   </ul>

@@ -56,7 +56,7 @@ export default function Navbar() {
               <li key={index}>
                 <Link
                   to={item?.href}
-                  className={`relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
+                  className={`text-sm sm:text-base relative block px-4 mx-2 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
                     isActive ? "text-teal-500 dark:text-teal-400" : ""
                   }`}
                 >

@@ -1,13 +1,17 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-.text-highlight {
-  font-weight: bold;
-  color: #00baa7;
+img {
+  color: transparent;
 }
 
 button {
   cursor: pointer;
+}
+
+.text-highlight {
+  font-weight: bold;
+  color: #00baa7;
 }
 
 .tag-custom {

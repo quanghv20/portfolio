@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "@/constants/index.tsx";
+import { Text } from "@/components/index.ts";
 
 export default function Footer() {
   const location = useLocation();
@@ -20,7 +21,7 @@ export default function Footer() {
                         return (
                           <Link
                             key={index}
-                            className={`transition hover:text-teal-500 dark:hover:text-teal-400 ${
+                            className={`transition hover:text-teal-500 mx-1 dark:hover:text-teal-400 ${
                               isActive ? "text-teal-500 dark:text-teal-400" : ""
                             }`}
                             to={item?.href}
@@ -30,9 +31,7 @@ export default function Footer() {
                         );
                       })}
                     </div>
-                    <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                      © 2025 Quang Cối.
-                    </p>
+                    <Text>© 2025 Quang Cối.</Text>
                   </div>
                 </div>
               </div>

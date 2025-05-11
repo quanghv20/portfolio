@@ -21,7 +21,6 @@ export default function PhotoGallery() {
                   decoding="async"
                   data-nimg="1"
                   className="absolute inset-0 h-full w-full object-cover"
-                  // style="color:transparent"
                   sizes="(min-width: 640px) 18rem, 11rem"
                   src={imgUrl}
                 />

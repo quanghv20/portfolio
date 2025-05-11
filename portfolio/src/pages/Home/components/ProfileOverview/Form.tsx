@@ -1,3 +1,5 @@
+import { Text, TextSubHeading } from "@/components/index.ts";
+
 export default function SubscribeForm() {
   return (
     <>
@@ -22,11 +24,13 @@ export default function SubscribeForm() {
               d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
             />
           </svg>
-          <span className="ml-3">Stay up to date</span>
+          <TextSubHeading className="ml-3">Stay up to date</TextSubHeading>
         </h2>
         <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-          Get notified when I publish something new, and unsubscribe at any
-          time.
+          <Text className="sm:text-sm">
+            Get notified when I publish something new, and unsubscribe at any
+            time.
+          </Text>
         </p>
         <div className="mt-6 flex items-center">
           <span className="flex min-w-0 flex-auto p-px">

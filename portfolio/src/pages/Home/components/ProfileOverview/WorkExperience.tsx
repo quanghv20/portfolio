@@ -1,3 +1,4 @@
+import { Text, TextSubHeading } from "@/components/index.ts";
 import { personalInfo } from "@/constants/index.tsx";
 export default function WorkExperience() {
   return (
@@ -8,7 +9,7 @@ export default function WorkExperience() {
             <div key={index} className={`${index === 0 ? "mb-8" : ""}`}>
               <h2 className="flex text-base font-semibold text-zinc-900 dark:text-zinc-100">
                 {item?.icon}
-                <span className="ml-3">{item?.name}</span>
+                <TextSubHeading className="ml-3">{item?.name}</TextSubHeading>
               </h2>
               <ol className="mt-4 space-y-4">
                 {item?.history?.map((item, index: number) => {
@@ -27,28 +28,26 @@ export default function WorkExperience() {
                           data-nimg="1"
                           className="h-10 w-10 rounded-full"
                           src={item?.logoCompany}
-                          //  style="color: transparent;"
                         />
                       </div>
                       <dl className="flex flex-auto flex-wrap gap-1">
-                        <dt className="sr-only">Company</dt>
-                        <dd className="w-full flex-none text-base font-medium text-zinc-900 dark:text-zinc-100">
-                          {item?.company}
-                        </dd>
                         <dt className="sr-only">Role</dt>
-                        <dd className="text-sm text-zinc-500 dark:text-zinc-400">
-                          {item?.role}
+                        <dd className="">
+                          <TextSubHeading>{item?.company}</TextSubHeading>
                         </dd>
                         <dt className="sr-only">Date</dt>
-                        <dd
-                          className="ml-auto text-sm text-zinc-400 dark:text-zinc-500"
-                          aria-label="2019 until Present"
-                        >
+                        <dd className="ml-auto text-base text-zinc-400 dark:text-zinc-500">
                           <time dateTime={item?.startDate}>
-                            {item?.startDate}
+                            <Text>{item?.startDate}</Text>
                           </time>{" "}
                           <span aria-hidden="true">—</span>{" "}
-                          <time dateTime={item?.endDate}>{item?.endDate}</time>
+                          <time dateTime={item?.endDate}>
+                            <Text>{item?.endDate}</Text>
+                          </time>
+                        </dd>
+                        <dt className="sr-only">Company</dt>
+                        <dd className="w-full flex-none text-base text-zinc-500 dark:text-zinc-400">
+                          <Text>{item?.role}</Text>
                         </dd>
                       </dl>
                     </li>
