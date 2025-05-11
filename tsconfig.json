@@ -8,10 +8,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-      // "@constants/*": ["src/constants/*"],
-      // "@components/*": ["src/components/*"],
-      // "@pages/*": ["src/pages/*"],
-      // "@utils/*": ["src/utils/*"]
     },
     "jsx": "react-jsx",
     "esModuleInterop": true,
