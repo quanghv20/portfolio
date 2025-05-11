@@ -1,4 +1,4 @@
-import { HeroHeading } from "@/components/index.ts";
+import { HeroHeading, Paragraph } from "@/components/index.ts";
 
 export default function SpeakingPage() {
   return (
@@ -9,12 +9,12 @@ export default function SpeakingPage() {
             "I’ve spoken at events all around the world and been interviewed for many podcasts."
           }
         />
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+        <Paragraph>
           One of my favorite ways to share my ideas is live on stage, where
           there’s so much more communication bandwidth than there is in writing,
           and I love podcast interviews because they give me the opportunity to
           answer questions instead of just present my opinions.
-        </p>
+        </Paragraph>
       </header>
       <div className="mt-16 sm:mt-20">
         <div className="space-y-20">

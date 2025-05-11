@@ -1,5 +1,6 @@
 import { JSLifeButton, Text, TextSubHeading } from "@/components/index.ts";
 import { personalInfo } from "@/constants/index.tsx";
+
 export default function WorkExperience() {
   return (
     <>
