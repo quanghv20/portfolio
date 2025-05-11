@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Paragraph } from "@/components/index.ts";
+import { Paragraph, Text } from "@/components/index.ts";
 
 const timelineData = [
   {
@@ -115,10 +115,12 @@ export default function Timeline() {
               </ul>
 
               <button
-                className="text-blue-500 mt-3 ml-2"
+                className="text-blue-500 mt-4 ml-2"
                 onClick={() => setShowFull(!showFull)}
               >
-                {showFull ? "See Less" : "See More. . ."}
+                <Text highlighted className="font-normal">
+                  {showFull ? "See Less" : "See More. . ."}
+                </Text>
               </button>
             </div>
           </li>
