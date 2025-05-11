@@ -1,4 +1,4 @@
-import { Text, TextSubHeading } from "@/components/index.ts";
+import { JSLifeButton, Text, TextSubHeading } from "@/components/index.ts";
 
 export default function SubscribeForm() {
   return (
@@ -32,7 +32,7 @@ export default function SubscribeForm() {
             time.
           </Text>
         </p>
-        <div className="mt-6 flex items-center">
+        <div className="mt-6 flex items-center gap-x-4">
           <span className="flex min-w-0 flex-auto p-px">
             <input
               placeholder="Email address"
@@ -42,12 +42,7 @@ export default function SubscribeForm() {
               type="email"
             />
           </span>
-          <button
-            className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 ml-4 flex-none"
-            type="submit"
-          >
-            Join
-          </button>
+          <JSLifeButton>Join</JSLifeButton>
         </div>
       </form>
     </>

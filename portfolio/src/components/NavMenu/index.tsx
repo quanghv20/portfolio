@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { navItems } from "@/constants/index.tsx";
+import Text from "../Text/index.tsx";
 
 type PropsType = {
   isOpen: boolean;
@@ -18,8 +19,6 @@ export default function NavMenu(props: PropsType) {
         id="headlessui-popover-panel-:Rrmiqja:"
         data-headlessui-state="open"
         data-open=""
-        // tabIndex="-1"
-        // style="--button-width: 88.71875px;"
       >
         <div className="flex flex-row-reverse items-center justify-between">
           <button
@@ -53,17 +52,17 @@ export default function NavMenu(props: PropsType) {
         <nav className="mt-6">
           <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
             {navItems.map((item, index: number) => {
-              const isActive = location?.pathname === item?.href;
+              const isNavActive = location?.pathname === item?.href;
 
               return (
                 <li key={index}>
-                  <Link
-                    to={item?.href}
-                    className={`relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
-                      isActive ? "text-teal-500 dark:text-teal-400" : ""
-                    }`}
-                  >
-                    {item?.label}
+                  <Link to={item?.href}>
+                    <Text
+                      className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                      highlighted={isNavActive}
+                    >
+                      {item?.label}
+                    </Text>
                   </Link>
                 </li>
               );

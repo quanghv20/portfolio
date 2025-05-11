@@ -1,3 +1,4 @@
+import { Text } from "@/components/index.ts";
 import { tags } from "@/constants/index.tsx";
 
 type PropsType = {
@@ -25,7 +26,7 @@ export default function FilterMenu(props: PropsType) {
           aria-labelledby="dropdownDefaultButton"
         >
           {tags.map((tag, index: number) => {
-            const isActive = tag.label === activeTag;
+            const isTagActive = tag.label === activeTag;
 
             return (
               <li
@@ -36,13 +37,12 @@ export default function FilterMenu(props: PropsType) {
                   closeMenu();
                 }}
               >
-                <span
-                  className={`relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
-                    isActive ? "font-bold text-teal-500 dark:text-teal-400" : ""
-                  }`}
+                <Text
+                  className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                  highlighted={isTagActive}
                 >
                   {tag?.label}
-                </span>
+                </Text>
               </li>
             );
           })}

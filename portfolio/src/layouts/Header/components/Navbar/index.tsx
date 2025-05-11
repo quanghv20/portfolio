@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "@/constants/index.tsx";
+import { Text } from "@/components/index.ts";
 import NavMenu from "@/components/NavMenu/index.tsx";
 
 export default function Navbar() {
@@ -43,24 +44,20 @@ export default function Navbar() {
 
         <NavMenu isOpen={isNavMenuOpen} onClose={handleToggleMenu} />
       </div>
-      <div
-      // hidden=""
-      // style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"
-      ></div>
       <nav className="pointer-events-auto hidden md:block">
         <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
           {navItems.map((item, index: number) => {
-            const isActive = location?.pathname === item?.href;
+            const isNavActive = location?.pathname === item?.href;
 
             return (
               <li key={index}>
-                <Link
-                  to={item?.href}
-                  className={`text-sm sm:text-base relative block px-4 mx-2 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 ${
-                    isActive ? "text-teal-500 dark:text-teal-400" : ""
-                  }`}
-                >
-                  {item?.label}
+                <Link to={item?.href}>
+                  <Text
+                    className="relative block px-4 mx-2 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                    highlighted={isNavActive}
+                  >
+                    {item?.label}
+                  </Text>
                 </Link>
               </li>
             );

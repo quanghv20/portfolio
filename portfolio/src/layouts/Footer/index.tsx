@@ -16,17 +16,16 @@ export default function Footer() {
                   <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
                     <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                       {navItems?.map((item, index: number) => {
-                        const isActive = location?.pathname === item?.href;
+                        const isNavActive = location?.pathname === item?.href;
 
                         return (
-                          <Link
-                            key={index}
-                            className={`transition hover:text-teal-500 mx-1 dark:hover:text-teal-400 ${
-                              isActive ? "text-teal-500 dark:text-teal-400" : ""
-                            }`}
-                            to={item?.href}
-                          >
-                            {item?.label}
+                          <Link key={index} to={item?.href}>
+                            <Text
+                              className="sm:text-sm transition hover:text-teal-500 mx-1 dark:hover:text-teal-400"
+                              highlighted={isNavActive}
+                            >
+                              {item?.label}
+                            </Text>
                           </Link>
                         );
                       })}
