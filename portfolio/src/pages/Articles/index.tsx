@@ -1,4 +1,9 @@
-import { ArticleList, CodeBlock, HeroHeading } from "@/components/index.ts";
+import {
+  ArticleList,
+  CodeBlock,
+  HeroHeading,
+  Paragraph,
+} from "@/components/index.ts";
 import FilterTags from "./components/FilterTags.tsx";
 
 export default function ArticlesPage() {
@@ -6,12 +11,9 @@ export default function ArticlesPage() {
     <>
       <header className="max-w-4xl">
         <HeroHeading text={"Code Your Future: Insights and Lessons"} />
-        <p className="mt-6 font-bold text-base text-zinc-600 dark:text-zinc-400">
-          <i>
-            {" "}
-            Each line of code is a step closer to the future you're building.
-          </i>
-        </p>
+        <Paragraph className="italic font-medium">
+          Each line of code is a step closer to the future you're building.
+        </Paragraph>
       </header>
 
       <FilterTags />
@@ -24,10 +26,10 @@ export default function ArticlesPage() {
           code={`const Prism = require('prismjs'); \nconst loadLanguages = require('prismjs/components/'); \nloadLanguages(['haml']); \n\n// Returns a highlighted HTML string \nconst html = Prism.highlight(code, Prism.languages.haml, 'haml');`}
           language="javascript"
         />
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+        <Paragraph>
           Aere repetiti cognataque natus. Habebat vela solutis saepe munus
           nondum adhuc oscula nomina pignora corpus deserat.
-        </p>
+        </Paragraph>
       </div>
       <div className="mt-16 sm:mt-20">
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
