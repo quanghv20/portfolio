@@ -5,7 +5,7 @@ export default function SubscribeForm() {
     <>
       <form
         action="/thank-you"
-        className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+        className="rounded-2xl p-6 border border-gray-300 dark:border-gray-700"
       >
         <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
           <svg

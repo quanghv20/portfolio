@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Paragraph, Text } from "@/components/index.ts";
+import { Paragraph, Text, TextSubHeading } from "@/components/index.ts";
 
 const timelineData = [
   {
     year: "2025 - Present",
     title:
-      "Onsite at Viettel VMS – Optical Fiber Production Process Management",
+      "Onsite at Viettel VMC – Optical Fiber Production Process Management",
     content: [
       "Participated in developing a <b>production process management system for optical fiber</b>, optimizing the production of components and devices for Viettel.",
       "Used <b>ReactJS</b> combined with <b>Ant Design</b> and <b>TailwindCSS</b> to build a user-friendly interface for managers and operators.",
@@ -40,7 +40,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <ol className="relative border-s border-gray-200 dark:border-gray-700">
+    <ol className="relative border-s border-gray-300 dark:border-gray-700">
       {timelineData.map((item, index) => {
         const [showFull, setShowFull] = useState(false);
         const [isCollapsed, setIsCollapsed] = useState(false);
@@ -50,7 +50,7 @@ export default function Timeline() {
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <div className="flex justify-between items-center">
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                {item.year}
+                <Text className="font-medium">{item.year}</Text>
               </time>
 
               <button
@@ -96,20 +96,17 @@ export default function Timeline() {
                 )}
               </button>
             </div>
-            <h3 className="mt-2 text-lg font-semibold text-gray-900 dark:text-white">
-              {item.title}
-            </h3>
+            <TextSubHeading>{item.title}</TextSubHeading>
             <div
-              className={`transition-all ${
-                isCollapsed ? "max-h-0 overflow-hidden" : "max-h-screen"
-              }`}
+              className={`transition-all ${isCollapsed ? "max-h-0 overflow-hidden" : "max-h-screen"
+                }`}
             >
-              <ul className="list-disc pl-6">
+              <ul className="list-disc pl-6 text-zinc-500 dark:text-zinc-400 text-sm">
                 {item.content
                   .slice(0, showFull ? item.content.length : 2)
                   .map((text: string, i: number) => (
                     <li key={i}>
-                      <Paragraph dangerouslySetInnerHTML={{ __html: text }} />
+                      <Paragraph dangerouslySetInnerHTML={{ __html: text }} className="sm:text-sm" />
                     </li>
                   ))}
               </ul>
@@ -118,7 +115,7 @@ export default function Timeline() {
                 className="text-blue-500 mt-4 ml-2"
                 onClick={() => setShowFull(!showFull)}
               >
-                <Text highlighted className="font-normal">
+                <Text highlighted className="font-normal sm:text-sm">
                   {showFull ? "See Less" : "See More. . ."}
                 </Text>
               </button>

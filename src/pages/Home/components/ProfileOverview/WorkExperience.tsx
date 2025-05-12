@@ -4,7 +4,7 @@ import { personalInfo } from "@/constants/index.tsx";
 export default function WorkExperience() {
   return (
     <>
-      <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+      <div className="rounded-2xl p-6 border border-gray-300 dark:border-gray-700">
         {personalInfo?.workExperiences?.map((item, index: number) => {
           return (
             <div key={index} className={`${index === 0 ? "mb-8" : ""}`}>

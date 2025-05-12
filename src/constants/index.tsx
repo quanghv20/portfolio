@@ -63,8 +63,8 @@ export const personalInfo = {
           logoCompany:
             "https://yt3.googleusercontent.com/f0WUG4YtZodKr5P4BzVkDxvyPGVx4gn9HpY18p6Wy17NIvug16nMJBXKGVKJqJerWZjxDrqN=s900-c-k-c0x00ffffff-no-rj",
           role: "Software Engineering",
-          startDate: "2019",
-          endDate: "2023",
+          startDate: "2018",
+          endDate: "2022",
           description:
             "Developed and maintained web applications using ReactJS and NodeJS, worked closely with designers and backend team to build responsive and scalable systems.",
         },
@@ -96,21 +96,25 @@ export const personalInfo = {
           company: "FPT Software",
           logoCompany:
             "https://media.licdn.com/dms/image/v2/D560BAQGfyUCuV-FiFA/company-logo_200_200/company-logo_200_200/0/1738914920866/fpt_software_logo?e=1752105600&v=beta&t=GIxc0ig00kgRxWNW1rP0Fg5abzHaly_A4hcW2sMJ_sw",
-          role: "NodeJS Developer",
+          role: "ReactJS Developer",
           startDate: "2023",
           endDate: "2024",
-          description:
-            "Developed and maintained web applications using ReactJS and NodeJS, worked closely with designers and backend team to build responsive and scalable systems.",
+        },
+        {
+          company: "VOV Digital Newspaper",
+          logoCompany:
+            "https://media.vov.vn/sites/default/files/logo/logovov.svg",
+          role: "NodeJS & ReactJS Developer",
+          startDate: "2024",
+          endDate: "2025",
         },
         {
           company: "Viettel VMC",
           logoCompany:
             "https://media.licdn.com/dms/image/v2/C560BAQHWPnNXS4EVZQ/company-logo_100_100/company-logo_100_100/0/1630640137510/viettel_group_logo?e=1752105600&v=beta&t=fe5GG5IkwLTBwQg5WKrXVsQnd8Q5lUm-iu-CYXLPB-E",
           role: "ReactJS Developer",
-          startDate: "2024",
+          startDate: "2025",
           endDate: "Present",
-          description:
-            "Developed and maintained web applications using ReactJS and NodeJS, worked closely with designers and backend team to build responsive and scalable systems.",
         },
       ],
     },

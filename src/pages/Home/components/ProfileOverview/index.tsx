@@ -1,6 +1,7 @@
 import SubscribeForm from "./Form.tsx";
 import WorkExperience from "./WorkExperience.tsx";
 import Timeline from "./Timeline.tsx";
+import TechnicalSkills from "./TechnicalSkills.tsx";
 
 export default function ProfileOverview() {
   return (
@@ -14,6 +15,7 @@ export default function ProfileOverview() {
           <Timeline />
         </div>
       </div>
+      <TechnicalSkills />
     </>
   );
 }
