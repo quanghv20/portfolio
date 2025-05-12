@@ -63,7 +63,7 @@ export default function TechnicalSkills() {
         <div className="rounded-2xl p-6 border border-gray-300 dark:border-gray-700">
             {/* Div chứa tiêu đề với background xám mờ */}
             <div
-                className="flex justify-center bg-teal-500 dark:bg-zinc-800/90 p-3 rounded-lg cursor-pointer"
+                className="flex justify-center items-center bg-teal-500 dark:bg-zinc-800/90 p-3 rounded-lg cursor-pointer"
                 onClick={handleToggle}
             >
                 <svg
