@@ -8,8 +8,9 @@ export default function Header() {
 
   return (
     <>
-      <header className="pointer-events-none relative z-50 flex flex-none flex-col">
-        <div className="top-0 z-10 h-16 pt-6">
+      <header className="shadow sm:shadow-none fixed top-0 left-0 z-50 w-full pointer-events-none z-50 flex flex-none flex-col bg-zinc-50 dark:bg-black">
+        {/* <header className="fixed top-0 left-0 z-50 w-full bg-white shadow"> */}
+        <div className="top-0 z-10 h-auto pt-6 pb-6">
           <div className="sm:px-8 top-(--header-top,--spacing(6)) w-full">
             <div className="mx-auto w-full max-w-7xl lg:px-8">
               <div className="relative px-4 sm:px-8 lg:px-12">

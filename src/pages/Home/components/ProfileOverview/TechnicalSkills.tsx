@@ -90,7 +90,7 @@ export default function TechnicalSkills() {
             {isOpen && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
                     {technicalSkills.map((item, index) => (
-                        <div key={index} className="bg-gray-100 dark:bg-transparent p-4 rounded-lg">
+                        <div key={index} className="border border-gray-300 dark:border-gray-700 dark:bg-transparent p-4 rounded-lg">
                             <TextSubHeading className="text-lg font-semibold">{item.category}</TextSubHeading>
                             <ul className="list-disc mt-2 list-inside text-zinc-500 dark:text-zinc-400 text-sm">
                                 {item.skills.map((skill, i) => (
